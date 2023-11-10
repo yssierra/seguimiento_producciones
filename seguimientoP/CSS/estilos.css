@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background-image: url(../IMG/CREDITOS\ 2.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #ffffff;
+}
+
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    width: 250px;
+    height: 30px;
+    margin-top: 35px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid  rgb(187, 0, 0);
+}
+
+.date {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid rgb(187, 0, 0);
+}
+
+
+.agregar {
+    width: 250px;
+    height: 40px; /* aqui se Aumenta la altura del botón para que se vea bien con el margen adicional */
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: rgb(105, 29, 29);
+    border: none;
+    cursor: pointer;
+}
+
+
+.listaEventos {
+    width: 640px;
+    height: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow:1px 1px 6px 6px  #910c0ccb;
+}
+
+
+.evento {
+    display: flex;
+    border: 3px solid rgb(187, 0, 0);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+}
+
+.dias .diasFaltantes {
+    color:rgb(105, 29, 29);
+    font-size: 35px; /* Aumenta el tamaño del número */
+    font-weight: bold; /* Hace que el número esté en negrilla */
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+.texto {
+    width: 30px;
+    margin-left: 20px ;
+    text-align: center;
+    font-weight: normal;
+    color: #000000;
+}
+
+
+.nombreEvento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; 
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-left: 40px; 
+    color: #292929;
+    overflow: auto;
+    text-align: center;
+}
+
+
+.fechaEvento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 10; 
+    margin-left: 80px; 
+    color: #555;
+    width: 150px;
+    
+}
+
+
+.acciones button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(132, 233, 38);
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 40px;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-left: 20px; /* Aumenta el valor del margen izquierdo */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.acciones button:hover {
+    background-color: rgb(105, 29, 29);
+    color: #ffffff;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title h1 {
+    margin-right: 10px;
+    font-size: 30px; 
+}
+
+.title img {
+    max-width: 50px;
+}
+
+.eventos {
+    max-width: 600px;
+    margin: 0 auto; /* Esto centra el contenedor de eventos osea el del el formulario horizontalmente en la página */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Esto centra los elementos verticalmente en el contenedor eventos */
+}
+
+.formulario {
+    width: 320px;
+    height: 190px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 6px #910c0ccb;
+    border: none;
+    margin-bottom: 40px; 
+}
+
+footer {
+    text-align: center; 
+    padding: 10px; 
+}
+
+
+
+
